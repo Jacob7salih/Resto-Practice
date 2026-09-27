@@ -4,3 +4,21 @@ header {
 
 @import url(/node_modules/bootstrap-icons/font/bootstrap-icons.css);
 @import 'custom';
+
+html {
+  position: relative;
+  min-height: 100%;
+
+
+}
+
+main {
+  margin-bottom: 180px;
+}
+
+footer.footer {
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
